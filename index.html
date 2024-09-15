@@ -9,6 +9,128 @@
     <meta name="description" content="NEIT VGDD Senior Project Showcase">
 
     <title>NEIT | VGDD</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+        body {
+            background-color: #385189;
+        }
+
+        #wrapper {
+            width:1080px;
+            border-radius:10px;
+            box-shadow: 0 0 8px black;
+            margin:20px;
+            padding:10px;
+            margin:auto;
+        }
+
+        #header {
+            text-align:center;
+            color:white;
+        }
+
+        #footer {
+            text-align: center;
+            color:white;
+            font-size:10px;
+        }
+
+        div {
+            padding:10px;
+            margin:10px;
+        }
+
+        .g-pic {
+
+            float:left;
+            /*border:1px solid gold;*/
+            margin-top:20px;
+            box-shadow: 0 0 8px black;
+        }
+
+        .pic {
+            width:400px;
+        }
+
+        .g-desc {
+            width:500px;
+            float:right;
+            /*margin-right:15px;*/
+            color:white;
+            margin-top:none;
+        
+
+        }
+
+        .clear {
+            clear:both;
+        }
+
+        .g-title {
+            font-size:60px;
+            color:lightgoldenrodyellow;
+            font-style:roboto;
+        }
+
+        #just {
+            font-style:Space Mono, sans-serif;
+        }
+
+        #stout {
+            font-style:"Pixelfy-Sans";
+        }
+
+       
+          .space-mono-bold {
+            font-family: "Space Mono", monospace;
+            font-weight: 700;
+            font-style: normal;
+            font-size:45px;
+            color:lightgoldenrodyellow;
+          }
+          
+          .pixelify-sans-stout {
+            font-family: "Pixelify Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+          }
+        
+          .roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+          }
+          
+          .archivo-black-regular {
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+          a {
+            color:goldenrod;
+          }
+
+          a:hover {
+            font-size:20px;
+          }
+
+          #info {
+            color:white;
+          }
+    </style>
+
+
+
 </head>
 <body>
 
@@ -16,7 +138,13 @@
 
         <div id="header">
 
-            <h3><i>Content Coming Soon!</i></h3>
+            <h3>NEIT's Video Game Design & Development</h1>
+            <h1 class="space-mono-bold">Senior Project Showcase</h2>
+
+            <br>
+
+            <h3>Please join us <br><b>Wednesday, September 18th</b><br>5:30 - 7:30P <br>for live presentations</h3>
+            <h4 style="color:gold;"><i>Link @ bottom for those looking to join the livestream from home!</i></h4>
         </div>
 
         <div id="nav">
@@ -25,11 +153,123 @@
 
         <div id="content">
 
+            
+
+            <div id="auto" class="game">
+
+                <div class="g-pic">
+
+                    <img src="images/Just_Desserts_Logo_Scoops.png" alt="Just Desserts game logo: Nepolitan ice cream scooos" title="Go Gunch!" class="pic">
+
+                </div>
+
+                <div class="g-desc">
+
+                    <h3 class="g-title archivo-black-regular" id="just">Just Desserts</h3>
+                    <h4><i>Gunch Studios</i><br>Nick Butti, Jordan Colburn, Zach Nadeau</h4>
+
+                    <p class="g-words">Select your commander and play a series of tower defense levels as you progress through a randomly generated map. Find shops to unlock upgrades for your towers and commander, and fight mini bosses for bonus rewards to prepare for Count Cakeula</p>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div id="auto" class="game">
+
+                <div class="g-pic">
+
+                    <img src="images/StoutHearted.png" alt="SoutHearted game title logo" title="Dad, NOOO!!!" class="pic">
+
+                </div>
+
+                <div class="g-desc">
+
+                    <h3 class="g-title pixelify-sans-stout" id="stout">StoutHearted</h3>
+                    <h4><i>Free Shavacado</i><br>Aden Berthiaume, Chris Pacheco, Greg Jones Jr</h4>
+
+                    <p class="g-words">StoutHearted is a retro-inspired, Dungeon Crawler game where you play as a boy who witnessed Death take your father. Unable to accept this, you make your way through levels to confront Death and get your dad back.</p>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="clear"></div>
+            <hr>
+      
+
+            <!--reusbale div for each game-->
+            <div id="auto" class="game">
+
+                <div class="g-pic">
+
+                    <img src="images/signage.png" alt="Auto-Matic title screen; a space station in front of a saturn-like planet" title="Beep Boop Bop AHHH!" class="pic">
+
+                </div>
+
+                <div class="g-desc">
+
+                    <h3 class="g-title roboto-black" id="auto">AUTO-MATIC</h3>
+                    <h4>39 Studios<br>Andrew Hill, Dominic Pacheco, Keegan Sullivan</h4>
+
+                    <p class="g-words">A pilot on a space station must use his trusty mech to defeat hostile robots and upgrade his mech before facing the rogue AI that took over his home.</p>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div id="auto" class="game">
+
+                <div class="g-pic">
+
+                    <img src="images/Starhip ScreenShot-1-1.png" alt="Starship Destroyer game title star5t screen" title="GET THEM!" class="pic">
+
+                </div>
+
+                <div class="g-desc">
+
+                    <h3 class="g-title space-mono-bold" id="space">Starship Destroyer</h3>
+                    <h4><i>North Star Studios</i><br>alex Helm, Derek Pena, Kyle Sangillo, Jake Souza</h4>
+
+                    <p class="g-words">Starship Destroyer is a 3D Space Battle Simulator, It Has an Earth fighter pilot It is your duty to defend Earth against the alien hostile attack. Destroying Ships lets you collect scrap to upgrade your ship and your defense fleet.</p>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="clear"></div>
+
+            <hr>
+
+            <div id="info">
+                <h4> Live Presentations at the NEIT EG Campus - 1st Floor Media Presentation Theater</h4>
+
+                <h4>Can't Join us in-person? Join the LIVESTREAM via Zoom!</h4>
+                <a href="https://neit.zoom.us/j/98990609701?pwd=Cfmb0Xw7qvDM8v4WoluIj4KP6xfmLa.1">Click HERE</a> to join the livestream</h4><br><br>
+                <p><b>Meeting Details</b></p><br>
+                <p><b>MEETING CODE: 989 9060 9701 </b></p>
+                <p><b>PASSWORD: MakeGames!</b></p>
+            </div>
 
         </div>
 
         <div id="footer">
-
+            <p>&copy; K TRUCHON | GDS420.32 | Fall 2024</p>
         </div>
 
     </div>
